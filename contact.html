@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khatuji Website</title>
+    <link rel="icon" type="image/x-icon" href="/Mera-logo-512.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .lefttext {
+            position: relative;
+            top: -20px;
+            left: 10px;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+
+            color: rgb(255, 255, 255);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+            align-items: center;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 33);
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: palevioletred;
+            margin: 60px 84px;
+            height: 1.2px
+        }
+
+        .textgray {
+            color: grey;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+
+        }
+
+        .image-top {
+            position: relative;
+            top: -32px;
+            left: -9px;
+            width: 40px;
+            height: 40px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            width: 150px;
+            color: gray;
+            font-size: 9px;
+        }
+
+        footer {
+            background: color #0e0e1a;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        footer ul {
+            list-style: none;
+
+        }
+
+        .footer>div {
+            width: 233px;
+        }
+        footer .footer-right{
+            text-align: center;
+            color: gray;
+            padding: 12px ;
+        }
+        .leftsection .btn{
+            background: #1e2167;
+            color: white;
+            padding: 12px;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        .leftsection .button{
+            padding: 50px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <img src="Mera-logo-512.png" alt="" height="60px" width="60px"><span class="lefttext">Harshit's
+                    Portfolio</span>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+       
+    </main>
+    <hr>
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Harshit's Developer Portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+            &copy; khatujiportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web  Developer', 'Software developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
